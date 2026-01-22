@@ -1,73 +1,110 @@
-# Welcome to your Lovable project
+Nepal’s Hidden Gems 🌄
+Discover Nepal’s Trekking, Hiking, Sightseeing, and Adventure Destinations
+Nepal’s Hidden Gems is a dynamic web application that helps tourists, travelers, and adventure enthusiasts explore Nepal’s lesser-known and popular destinations. Users can browse trekking, hiking, sightseeing, and adventure options, view detailed information, and save their favorite spots.
 
-## Project info
+🚀 Features
+Explore trekking, hiking, sightseeing, and adventure destinations in Nepal
+Detailed information for each destination: difficulty, duration, region, and images
+Save your favorite destinations for easy access
+Responsive and user-friendly interface for web and mobile
+Clean and modern design for seamless experience
+Future-ready for AI-based recommendations and booking integrations
+🛠 Technology Stack
+Frontend:
+React.js (interactive and dynamic UI)
+TypeScript (structured and safer code)
+Tailwind CSS (responsive and modern design)
+ShadCN UI (ready-to-use UI components)
+Lucide Icons (visual clarity and aesthetics)
+Backend:
+Supabase (Backend-as-a-Service)
+PostgreSQL database (structured relational data)
+Authentication and secure data handling
+🔄 How It Works
+User opens the website; React loads the interface
+The frontend requests destination data from Supabase
+Database returns data in real-time
+User sees destination cards with images, activity tags, difficulty, and duration
+Users can save favorites; the database updates securely
+UI updates dynamically without page reloads
+🗄 Database Structure
+Tables:
+destinations
+id
+name
+region
+difficulty
+duration
+description
+image_url
+favorites
+id
+user_id
+destination_id
+users (managed by Supabase Auth)
+email
+user_id
+🎨 UI / UX
+Clean, minimal, and modern interface
+Activity tags for easy navigation (trekking, hiking, sightseeing, adventure)
+Mobile-friendly and responsive design
+Smooth real-time interaction with database
+🌟 Future Scope
+AI-based destination recommendations based on user interests
+Budget and fitness-based filters
+Booking system for guides, hotels, and trips
+Integration with Nepal Tourism Board for promoting hidden gems
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+📁 Project Structure
+src/
+ ├─ components/        # UI components
+ ├─ pages/             # Home, Explore, Favorites pages
+ ├─ services/          # Supabase API calls
+ ├─ hooks/             # Custom React hooks
+ ├─ styles/            # Tailwind CSS files
+ └─ main.tsx           # App entry point
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+📌 How to Run Locally
 
-Changes made via Lovable will be committed automatically to this repo.
+Clone the repository
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+git clone https://github.com/Error-4O04/nepal-trek-explorer-10.git
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+Navigate into the project folder
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd nepal-trek-explorer-10
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Install dependencies
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+npm install
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Start development server on port 8088
 
-## What technologies are used for this project?
 
-This project is built with:
+npm run dev -- --port 8088
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+Open the website at http://localhost:8088
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
+👥 Team
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Saurav Shah
+Lhakpa Dorji Sherpa
+Diwakar Budhathoki
+Samarthak KC
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+
+📄 License
+This project is for educational and hackathon purposes.

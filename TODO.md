@@ -1,0 +1,4 @@
+- [x] Change scroll behavior from 'auto' to 'smooth' for 'Trip Planner' navigation
+- [x] Change scroll behavior from 'auto' to 'smooth' for 'Activity Log' navigation
+- [x] Fix ActivityLog.tsx useEffect to use smooth scroll instead of auto
+- [x] Fix PersonalizedPlanner.tsx useEffect to use smooth scroll instead of auto
